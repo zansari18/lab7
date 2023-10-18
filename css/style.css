@@ -9,7 +9,7 @@
 }
 #main-navbar ul {
 	list-style-type: none;
-	margin: 20px;
+	margin:0;
 	padding:0;
 	position: relative;
 	left:50%;
@@ -18,15 +18,18 @@
 }
 #main-navbar ul li {
 	float:left;
-	position; relative;
+	position: relative;
 	right: 50%;
 	display: block;
 }
 #main-navbar ul li a {
 	display:block;
-	text-decoration:none;
-	padding: 20px 40px;
 	color: #fff;
+	text-decoration:none;
+	padding: 10px 20px;
+}
+#main-navbar ul li a:hover {
+	background-color: #000;
 }
 
 #onpage {
@@ -53,4 +56,7 @@
 	padding:15px 0;
 	right:0%;
 	color:#fff;
+}
+#sidebar ul li a:hover {
+	background-color: #000;
 }
